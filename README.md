@@ -1,3 +1,7 @@
+# short description
+ -> pull code -> download your bios image -> use build all script and point it to your bios image -> build efi file -> copy it to an efi bootable location (eg /efi/bootx64.efi) -> boot!
+ [Now you have access to thousands of hidden bios settings!]
+
 
 <h2>Screenshots</h2>
 
