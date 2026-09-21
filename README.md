@@ -5,7 +5,7 @@ real graphical interface — white background, anti-aliased text, rounded
 cards, live search — for reading and writing firmware "Setup" NVRAM
 variables (hidden BIOS settings).
 
-> **This copy is pre-built for the ASUS X99-PLUS/SLI BIOS (X99PSLI.25b).**
+> **This copy is pre-built for the Gigabyte X99 P SLI BIOS (X99PSLI.25b).**
 > `SetupVarGUI.efi` has 5267 offsets baked in: 5266 auto-extracted from a
 > full scan of that firmware, grouped into real categories (**Setup** 516,
 > **Platform** 4715, two GUID-named drivers, **ReFlash** 2), plus 1 custom
@@ -151,3 +151,7 @@ not — the parser reassembles it either way.
   fully usable, just less readable as a category label.
 - Full-firmware scans can take several seconds on large images; use the
   `name-filter` argument once you know which driver you care about.
+
+
+
+  ### Made by Claude Assistance, Thank you buddy ❤️
