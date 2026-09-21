@@ -1,0 +1,23 @@
+; SetupVarGUI batch config file.
+; Place this next to SetupVarGUI.efi (or BOOTX64.EFI) as "setupvar.cfg"
+; and pick "Load & apply config file" from the main menu.
+;
+; Format (one entry per line):
+;   VarStoreName:0xOFFSET(SIZE)=0xVALUE ; free-text description
+;
+; VarStoreName  - NVRAM variable name, usually "Setup" (some Insyde
+;                 firmwares use "Custom" or an OEM-specific name)
+; OFFSET        - hex byte offset into that variable's data
+; SIZE          - value size in bytes: 1, 2 or 4 (defaults to 1)
+; VALUE         - hex value to write
+;
+; You must determine the correct offsets for YOUR exact firmware
+; version yourself (e.g. via IFR extraction tools such as
+; Universal-IFR-Extractor). Offsets are NOT portable between
+; motherboards or even BIOS versions of the same board.
+;
+; Lines starting with ';' or '#' are comments and are ignored.
+
+; --- examples only, DO NOT use on real hardware without verifying ---
+; Setup:0x0CA9(1)=0x01 ; Intel C-State -> Enabled
+; Setup:0x058D(1)=0x00 ; Overclocking Lock -> Unlocked

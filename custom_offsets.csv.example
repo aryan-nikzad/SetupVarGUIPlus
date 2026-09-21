@@ -1,0 +1,22 @@
+# custom_offsets.csv - your own hand-picked offsets/labels.
+#
+# Pass this file as the 2nd argument to build_all.sh and its entries get
+# compiled into the GUI's "Custom Offsets" menu, separate from whatever
+# build_all.sh auto-extracted from your BIOS into "Known Offsets".
+#
+# Simplest format - just an offset and a label (store defaults to "Setup",
+# size defaults to 1 byte):
+#
+#   0x495,above 4g decode
+#
+# You can also give the store name and/or size explicitly:
+#
+#   Setup,0x495,1,above 4g decode
+#
+# Lines starting with # are comments and are ignored. One entry per line.
+# Offsets are hex (0x...). This is exactly the format you'd get by reading
+# the "VarOffset"/"VarStoreInfo" value out of a *.uefi.ifr.txt file that
+# IFRExtractor-RS produced (see README.md), or anywhere else you found a
+# documented offset for your board (forums, other tools' notes, etc.)
+
+0x495,above 4g decode
