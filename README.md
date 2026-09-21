@@ -1,3 +1,47 @@
+
+<h2>Screenshots</h2>
+
+<table>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/01_gfx_engine_first_test.png"></td>
+    <td><img src="SetupVarGUI_screenshots/02_splash_disclaimer.png"></td>
+    <td><img src="SetupVarGUI_screenshots/03_aio_tab_default_list.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/04_aio_tab_live_search.png"></td>
+    <td><img src="SetupVarGUI_screenshots/05_editor_sriov_not_found_in_qemu.png"></td>
+    <td><img src="SetupVarGUI_screenshots/06_menu_tab_categories_before_fix.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/07_menu_drilled_spacing_bug.png"></td>
+    <td><img src="SetupVarGUI_screenshots/08_more_tab_action_list.png"></td>
+    <td><img src="SetupVarGUI_screenshots/09_menu_drilled_spacing_fixed.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/10_browse_live_nvram_variables.png"></td>
+    <td><img src="SetupVarGUI_screenshots/11_about_screen.png"></td>
+    <td><img src="SetupVarGUI_screenshots/12_manual_edit_store_name_input.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/13_editor_real_timeout_variable.png"></td>
+    <td><img src="SetupVarGUI_screenshots/14_write_confirmation_dialog.png"></td>
+    <td><img src="SetupVarGUI_screenshots/15_write_succeeded_real_nvram_write.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/16_aio_full_5267_entries.png"></td>
+    <td><img src="SetupVarGUI_screenshots/17_menu_categories_before_driver_name_fix.png"></td>
+    <td><img src="SetupVarGUI_screenshots/18_menu_categories_after_driver_name_fix.png"></td>
+  </tr>
+  <tr>
+    <td><img src="SetupVarGUI_screenshots/19_menu_categories_final_clean_names.png"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+
 # SetupVar GUI
 
 A native UEFI application (single `.efi` binary, no OS required) with a
